@@ -9,11 +9,17 @@ The clustering outcomes are assessed and compared, followed by a comprehensive r
 **The Needed libraries, modules, and classes**
 
 •	The numpy library is imported as it provides a wide range of tools for data analysis and working with data in Python
+
 •	The Pandas library is needed to load the CSV file from the URL into a DataFrame object. 
+
 •	The matplotlib.pyplot library is needed for the different visualizations that are used in the program, such as histograms and the bar graph.
+
 •	The seaborn library is also needed for data visualization, especially for visualizing the correlations among several columns in the dataset.
+
 •	The standardScaler class is imported from the ‘preprocessing’ module in scikit-learn. This class is used to scale data to have a mean of zero and standard deviation of one.
+
 •	The kMeans class  is imported from the cluster module in scikit-learn. It is used for clustering the dataset into a specified number of clusters.
+
 •	The silhouette_score function is imported from the metrics module in scikit-learn, and it is used to evaluate the quality of a clustering solution where a higher silhouette score indicates a better clustering solution.
 
 **How to install and run the code along with datasets to be able to run the program successfully.**
