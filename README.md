@@ -1,4 +1,5 @@
  **A brief description of the purpose of the program and what it is doing.**
+ 
 This program performs customer segmentation using the K-means clustering algorithm in order to better understand the different types of customers in a given dataset. The dataset has 5 attributes and 200 entries with each entry containing information on the customer ID, gender, age, annual income in thousands of dollars, and the spending score ranging from 1-100 based on customer behavior and spending nature – a high score indicates high spending. 
 
 Before clustering, exploratory data analysis is conducted to detect any missing values, duplicates, and to comprehend the distribution of each feature. The data is scaled and prepared for clustering using Sklearn's StandardScaler. The Silhouette method is implemented to determine the optimal number of clusters. Two sets of features are used for clustering, one using annual income and spending score, while the other uses age and spending score. The first set results in 5 clusters, while the second set yields 2 clusters.
